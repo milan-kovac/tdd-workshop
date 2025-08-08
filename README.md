@@ -2,7 +2,7 @@
 
 This repository served as a workshop for interns during mentorship sessions where I was the mentor, focusing on learning and practicing unit and integration tests using the TDD approach.
 
-## 💫 How to run the projec
+## 💫 How to run the project
 
 **1. Clone the repository:**
 

@@ -1,0 +1,33 @@
+{
+  "name": "tdd-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "test:unit": "jest --verbose --testPathPatterns=tests/unit",
+    "test:integration": "jest --verbose --testPathPatterns=tests/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milan-kovac/tdd-workshop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milan-kovac/tdd-workshop/issues"
+  },
+  "homepage": "https://github.com/milan-kovac/tdd-workshop#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1"
+  }
+}

@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/milan-kovac/tdd-workshop#readme",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.2.1",
+    "ts-jest": "^29.4.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   },

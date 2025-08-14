@@ -26,6 +26,14 @@ class Workshop {
   }
 }
 
-const workshop = new Workshop();
+(async () => {
+  const workshop = new Workshop();
 
-console.log("Hello world!");
+  const commentsByPostId = await workshop.commnet.getAllByPostId(1);
+  const postById = await workshop.post.getById(1);
+  const allPosts = await workshop.post.getAll();
+
+  console.log("commentsByPostId", commentsByPostId);
+  console.log("postById", postById);
+  console.log("allPosts", allPosts);
+})();

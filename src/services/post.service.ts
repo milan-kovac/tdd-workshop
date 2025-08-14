@@ -4,11 +4,11 @@ import { PostServicePort, HttpBuilderPort } from "../ports";
 export class PostService implements PostServicePort {
   constructor(private readonly httpBuilder: HttpBuilderPort) {}
 
-  getPosts(): Promise<PostDto[]> {
-    throw new Error("Method not implemented.");
+  async getAll(): Promise<PostDto[]> {
+    return await this.httpBuilder.setPath("/posts").setMethod("GET").send();
   }
 
-  getPostById(id: number): Promise<PostDto | null> {
-    throw new Error("Method not implemented.");
+  async getById(id: number): Promise<PostDto | null> {
+    return await this.httpBuilder.setPath(`/posts/${id}`).setMethod("GET").send();
   }
 }

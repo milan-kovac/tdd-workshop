@@ -19,9 +19,9 @@
 ### Pair Programming Exercise
 - Goal: Hands-on experience with collaborative unit testing
 - Method:
-  1. One participant proposes how a test or implementation should be done
-  2. The other participant writes the test/implements the code
-  3. Roles are rotated continuously
+   - One participant proposes how a test or implementation should be done
+   - The other participant writes the test/implements the code
+   - Roles are rotated continuously
 - Task:
   - Write unit tests for **PostService** collaboratively
 - Focus:
@@ -40,3 +40,4 @@
   - Apply TDD approach to **CalculatorService**
   - Write tests → implement → refactor
   - Practice multiple scenarios and edge cases
+

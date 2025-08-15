@@ -1,5 +1,5 @@
 import * as dotenv from "dotenv";
-import { HttpBuilder } from "./http/HttpBuilder";
+import { HttpBuilder } from "./http/http.builder";
 import { AppConfig } from "./config";
 import { CommentService, PostService } from "./services";
 import { CommentServicePort, PostServicePort } from "./ports";

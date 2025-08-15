@@ -1,1 +1,1 @@
-export { HttpBuilder } from "./HttpBuilder";
+export { HttpBuilder } from "./http.builder";
